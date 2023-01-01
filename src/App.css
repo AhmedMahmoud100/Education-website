@@ -13,9 +13,16 @@ body {
   max-width: 85%;
   margin: auto;
 }
+@media (max-width :767px){
+  .container {
+    max-width: 100%;
+    margin: auto 20px;
+  }
+}
 .flexSB {
   display: flex;
   justify-content: space-between;
+  gap: 10px;
 }
 .icon {
   width: 40px;

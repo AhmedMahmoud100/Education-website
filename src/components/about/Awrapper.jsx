@@ -5,7 +5,8 @@ const Awrapper = () => {
   return (
     <>
       <section className='awrapper'>
-        <div className='container grid'>
+        <div className="overlay-wrapper"></div> 
+          <div className="statics container">
           {awrapper.map((val , index) => {
             return (
               <div className='box flex' key={index}>
@@ -19,7 +20,7 @@ const Awrapper = () => {
               </div>
             )
           })}
-        </div>
+          </div>
       </section>
     </>
   )

@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <>
       <Head />
-      <header>
+      <header >
         <nav className='flexSB'>
           <ul className={click ? "mobile-nav" : "flexSB "} onClick={() => setClick(false)}>
             <li>
