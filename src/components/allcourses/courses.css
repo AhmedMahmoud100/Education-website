@@ -1,10 +1,18 @@
 .coursesCard {
   padding: 50px 0;
 }
+.coursesCard .box-flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-around;
+}
+
 .coursesCard .items {
   background-color: #fff;
   padding: 30px;
   text-align: center;
+  width: 390px;
 }
 .coursesCard .img {
   width: 80px;
@@ -64,6 +72,11 @@
 .online {
   text-align: center;
 }
+.online .content-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(180px,1fr));
+  gap: 20px;
+}
 .online .box {
   box-shadow: 0 5px 25px -2px rgb(0 0 0 / 6%);
   background-color: #fff;
@@ -114,4 +127,14 @@
 }
 /*-------------online---------*/
 @media screen and (max-width: 768px) {
+  .coursesCard {
+    padding: 0 ;
+  }
+  .coursesCard .text h1 {
+    font-size: 25px;
+  }
+  .coursesCard .img {
+    width: 70px;
+    height: 70px;
+  }
 }

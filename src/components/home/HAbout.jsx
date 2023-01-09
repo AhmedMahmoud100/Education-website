@@ -13,7 +13,7 @@ const HAbout = () => {
 
           <div className='coursesCard'>
             {/* copy code form  coursesCard */}
-            <div className='grid2'>
+            <div className='box-flex'>
               {coursesCard.slice(0, 3).map((val , index) => (
                 <div className='items' key={index}>
                   <div className='content flex'>

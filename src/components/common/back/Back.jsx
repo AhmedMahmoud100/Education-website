@@ -6,11 +6,14 @@ const Back = ({ title }) => {
 
   return (
     <>
+    <div className="before-back"></div>
       <section className='back'>
+        <div className='offset'></div>
+        <div className="back-flex">
         <h2>Home / {location.pathname.split("/")[1]}</h2>
         <h1>{title}</h1>
+        </div>
       </section>
-      <div className='margin'></div>
     </>
   )
 }

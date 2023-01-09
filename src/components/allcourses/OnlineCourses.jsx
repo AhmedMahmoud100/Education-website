@@ -9,7 +9,7 @@ const OnlineCourses = () => {
       <section className='online'>
         <div className='container'>
           <Heading subtitle='COURSES' title='Browse Our Online Courses' />
-          <div className='content grid3'>
+          <div className='content-grid'>
             {online.map((val ,index) => (
               <div className='box' key={index}>
                 <div className='img'>

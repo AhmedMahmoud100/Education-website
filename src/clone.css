@@ -114,23 +114,22 @@ p {
   line-height: 30px;
   font-size: 18px;
 }
-
 .before-back {
   background-image: url("../public/images/back-0.png");
   background-size: cover;
   background-attachment: fixed;
   width: 100%;
-  height: 150px;
+  height: 200px;
   padding-top: 1px;
   display: none;
 }
-
 .back {
   background-image: url("../public/images/back.webp");
   background-size: cover;
   background-attachment: fixed;
   z-index: -1;
   width: 100%;
+  /* height: calc(100vh - 200px); */
   height: 100vh;
   padding-top: 1px;
   padding-right: 50px;
@@ -209,22 +208,11 @@ p {
   box-shadow: 0 5px 25px -2px rgb(0 0 0 / 6%);
   background-color: #fff;
 }
-
 @media (max-width : 1075px) {
-  .before-back {
-    display: block;
-  }
-
-  .back {
-    height: calc(100vh - 150px);
-    background-attachment: initial;
-  }
-
   .back .offset {
     margin-top: 115px;
   }
 }
-
 @media screen and (max-width: 768px) {
 
   .grid2,
@@ -234,7 +222,7 @@ p {
   }
 
   .back {
-    background-image: url("../public/images/back-1.png");
+    background-position: center;
   }
 }
 

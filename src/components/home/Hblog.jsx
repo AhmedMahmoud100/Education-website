@@ -11,7 +11,7 @@ const Hblog = () => {
       <section className='blog'>
         <div className='container'>
           <Heading subtitle='OUR BLOG' title='Recent From Blog' />
-          <div className='grid2'>
+          <div className='content-grid2'>
             {blog.slice(0, 3).map((val , index) => (
               <div className='items shadow' key={index}>
                 <div className='img'>

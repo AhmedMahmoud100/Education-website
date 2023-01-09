@@ -21,6 +21,12 @@
   max-width: 70%;
   border-radius: 5px;
 }
+@media (max-width:768px){
+  .faq .container {
+    max-width: 100%;
+    margin: auto 20px;
+  }
+}
 .faq .box {
   background-color: #fff;
   margin-bottom: 20px;
