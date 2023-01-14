@@ -3,7 +3,7 @@
 Online E-learning website .
 
 ## Demo
-[https://academia-website.netlify.app/)
+https://academia-website.netlify.app/
 
 
 ## Built with
